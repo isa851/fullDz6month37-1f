@@ -1,0 +1,25 @@
+.home{
+    width: 100%;
+}
+
+.section{
+    background-color: rgb(50, 53, 58);
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 4.5rem 0px;
+    min-height: calc(-60px + 50vh);
+    &-cont{
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 1920px;
+    }
+}
+
+    

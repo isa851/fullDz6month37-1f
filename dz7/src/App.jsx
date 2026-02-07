@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default function Login() {
+function App() {
   const [email, setEmail] = useState('eve.holt@reqres.in');
   const [password, setPassword] = useState('cityslicka');
 
@@ -47,3 +47,5 @@ export default function Login() {
     </form>
   );
 }
+
+export default App
